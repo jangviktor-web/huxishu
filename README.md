@@ -35,6 +35,16 @@
 </details>
 
 <details>
+<summary><b>🔧 ClawHub（推荐）</b></summary>
+
+```bash
+openclaw skills install @jangviktor-web/huxishu
+```
+
+一行命令自动安装，无需手动下载。
+</details>
+
+<details>
 <summary><b>🖥️ 手动安装（任意平台）</b></summary>
 
 ```bash
