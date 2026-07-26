@@ -394,10 +394,111 @@ a:hover{color:var(--text)}
   </div>
 </section>
 
+<!-- 数据来源 -->
+<section class="sec" style="background:var(--bg)">
+  <div class="container sec-center">
+    <div class="sec-num">/06</div>
+    <h2 class="sec-title">数据来源</h2>
+    <p class="sec-subtitle">基于胡希恕中日录音增补版完整讲稿，38万字全量蒸馏。</p>
+    <div style="overflow-x:auto">
+      <table style="width:100%;max-width:500px;margin:0 auto;border-collapse:collapse;background:var(--white);border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.04)">
+        <tr style="background:var(--red);color:#fff">
+          <th style="padding:12px 16px;text-align:left">讲稿</th>
+          <th style="padding:12px 16px;text-align:left">字数</th>
+          <th style="padding:12px 16px;text-align:left">状态</th>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:12px 16px">胡希恕《伤寒论》讲座</td>
+          <td style="padding:12px 16px;text-align:center">~25万</td>
+          <td style="padding:12px 16px;text-align:center;color:var(--jade)">✅ 398条全量</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 16px">胡希恕《金匮要略》讲座</td>
+          <td style="padding:12px 16px;text-align:center">~13万</td>
+          <td style="padding:12px 16px;text-align:center;color:var(--jade)">✅ 22篇全量</td>
+        </tr>
+      </table>
+    </div>
+    <br><br>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:700px;margin:0 auto">
+      <div style="padding:20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:var(--red)">SKILL.md</div>
+        <div style="font-size:.8rem;color:var(--text-dim)">主技能文件 · 诊断公式+鉴别+速查</div>
+      </div>
+      <div style="padding:20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:var(--red)">2个</div>
+        <div style="font-size:.8rem;color:var(--text-dim)">modules · 伤寒论+金匮要略全文</div>
+      </div>
+      <div style="padding:20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-align:center">
+        <div style="font-size:1.5rem;font-weight:800;color:var(--red)">7个</div>
+        <div style="font-size:.8rem;color:var(--text-dim)">references · 心智模型/决策/剂量等</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 目录结构 -->
+<section class="sec" style="background:var(--bg-elevated)">
+  <div class="container sec-center">
+    <div class="sec-num">/07</div>
+    <h2 class="sec-title">仓库目录结构</h2>
+    <p class="sec-subtitle">完整技能包：一个SKILL.md + 两个modules + 七个references。</p>
+    <div class="terminal" style="max-width:600px;text-align:left">
+      <div class="terminal-bar">
+        <span class="terminal-dot r"></span><span class="terminal-dot y"></span><span class="terminal-dot g"></span>
+        <span class="terminal-title">目录结构</span>
+      </div>
+      <div class="terminal-body" style="font-size:.78rem">
+        <div>huxishu/</div>
+        <div>├── <span class="highlight">README.md</span>        仓库说明</div>
+        <div>├── <span class="highlight">SKILL.md</span>          主技能文件（含16公式+9鉴别+速查）</div>
+        <div>├── modules/</div>
+        <div>│   ├── <span class="highlight">01_shanghan.md</span>   伤寒论398条逐条讲解</div>
+        <div>│   └── <span class="highlight">02_jingui.md</span>     金匮要略22篇逐篇讲解</div>
+        <div>└── references/</div>
+        <div>    ├── <span class="highlight">01-core-philosophy.md</span>   六经八纲/方证尖端/正邪交争/胃气为本</div>
+        <div>    ├── <span class="highlight">02-decision-heuristics.md</span>  16个辨证IF-THEN公式</div>
+        <div>    ├── <span class="highlight">03-expression-dna.md</span>     胡希恕讲课风格</div>
+        <div>    ├── <span class="highlight">04-antipatterns-boundaries.md</span> 禁汗禁下/反对五行/诚实边界</div>
+        <div>    ├── <span class="highlight">05-biography-legacy.md</span>    生平/师承/弟子/著作</div>
+        <div>    ├── <span class="highlight">06-diet-wellness.md</span>       8个饮食调理模型</div>
+        <div>    └── <span class="highlight">07-dosage-framework.md</span>   剂量体系+七步条辨法</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 更新日志 -->
+<section class="sec" style="background:var(--bg)">
+  <div class="container sec-center">
+    <div class="sec-num">/08</div>
+    <h2 class="sec-title">更新日志</h2>
+    <p class="sec-subtitle">从初版到tcm-distiller重构，持续迭代。</p>
+    <div class="terminal" style="max-width:600px;text-align:left">
+      <div class="terminal-bar">
+        <span class="terminal-dot r"></span><span class="terminal-dot y"></span><span class="terminal-dot g"></span>
+        <span class="terminal-title">changelog</span>
+      </div>
+      <div class="terminal-body" style="font-size:.8rem">
+        <div><span class="gold">v2.0.0</span> (2026-07-24)</div>
+        <div class="output">  — tcm-distiller蒸馏框架重构</div>
+        <div class="output">  — 新增7个references文件（心智模型/决策/表达/反模式/生平/饮食/剂量）</div>
+        <div class="output">  — 新增16个六经辨证IF-THEN公式</div>
+        <div class="output">  — 新增9组方证鉴别速查表</div>
+        <div class="output">  — 新增七步条辨法+8个饮食模型+剂量换算体系</div>
+        <br>
+        <div><span class="gold">v1.0.0</span> (2026-07-22)</div>
+        <div class="output">  — 基于胡希恕38万字讲稿初版蒸馏</div>
+        <div class="output">  — 伤寒论398条+金匮22篇全覆盖</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- 使用方法 -->
 <section class="sec sec-center" id="usage">
   <div class="container">
-    <div class="sec-num">/06</div>
+    <div class="sec-num">/09</div>
     <h2 class="sec-title">使用方法</h2>
     <p class="sec-subtitle">直接问辨证问题，自动激活胡希恕视角回答。</p>
     <div class="terminal" style="max-width:600px">
