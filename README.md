@@ -1,4 +1,5 @@
 <div align="center">
+<img width="120" alt="1000194897" src="https://github.com/user-attachments/assets/2e0bc330-fed9-4d31-b3f8-d859148442c7" />
 
 # 胡希恕skill · 经方临床AI
 **将经方临床家胡希恕的六经八纲辨证体系注入 AI Agent**
@@ -199,7 +200,6 @@ huxishu/
 
 ## 致谢
 
-- 蒸馏框架：[tcm-distiller](https://github.com/alchaincyf/tcm-distiller) — 中医师思维蒸馏器
 - 讲稿来源：胡希恕《伤寒论》与《金匮要略》讲座完整讲稿（中日录音增补版，冯世纶整理）
 
 ---
@@ -210,4 +210,3 @@ huxishu/
 
 ---
 
-Built with [tcm-distiller](https://github.com/alchaincyf/tcm-distiller) · SkillHub
